@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with= device-width", initial-scale="1.0">
+        <title>artsymyr</title>
+        <link rel="stylesheet" href="web.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Roboto+Mono:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    </head>
+    <body>
+        <section class="header">
+    <nav>
+        <a href="index.html"><img src="images/myr.logo.png" alt=""></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa-solid fa-xmark" onclick="hidemenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#projects">PROJECTS</a></li>
+                <li><a href="#footer">CONTACT</a></li>
+            </ul>
+        </div>
+        <i class="fa-solid fa-bars" onclick="showmenu()"></i>
+    </nav>
+
+    <div class="text-box">
+        <h1>Welcome to Myr's Art Gallery</h1>
+        <p>If you hear a voice within you say you cannot paint, then by all means paint, and that voice will be silenced.<br><br>—Vincent van Gogh</p>
+        
+    </div>
+        </section>
+<!---about-->
+<section class="about" id="about">
+
+<h1>About Me</h1>
+<h6>I am Myr, a 20 year old indian artist and a Tech enthusiast who is interested in UI/UX, web development, acrylic canvas painting and digital art. I am currently pursuing B.Tech in Information Technology.</h6>
+</section>
+
+<section class="projects" id="projects">
+    <h1>Projects</h1>
+<div class="row">
+
+<div class="proj-col">
+    <h3>
+<img src="images/20210708_132753.jpg" alt="">
+</h3>
+<p>Human eye and nose illustration on cotton canvases using acrylic paints</p>
+
+</div>
+
+<div class="proj-col">
+    <h3>
+<img src="images/20211206_075030.jpg" alt="">
+</h3>
+<p>A study scene on a normal day using acrylic paints on a cotton canvas</p>
+
+</div>
+
+<div class="proj-col">
+    <h3>
+<img src="images/20211206_075237.jpg" alt="">
+</h3>
+<p>Cute lunchbox cakes using acrylic paints on a cotton canvas</p>
+
+</div>
+
+
+</div>
+
+<div class="row">
+
+    <div class="proj-col">
+        <h3>
+    <img src="images/RECRUITMENTS POST.png" alt="">
+    </h3>
+    <p>Instagram post for recruitment notice</p>
+    
+    </div>
+    
+    <div class="proj-col">
+        <h3>
+    <img src="images/SPO.png" alt="">
+    </h3>
+    <p>Instagram post for orientation notice</p>
+    
+    </div>
+    
+    <div class="proj-col">
+        <h3>
+    <img src="images/SPO-2.png" alt="">
+    </h3>
+    <p>Instagram post for open house announcement</p>
+    
+    </div>
+    
+    
+    </div>
+
+</section>
+
+<section class="cta">
+<h1></h1>
+<a href="contact.html" class="hero-btn">CONTACT ME</a>
+
+</section>
+
+<section class="footer" id="footer">
+    
+<div class="icons">
+    <a href="mailto:anshitaj03@gmail.com">
+    <i class="fa-solid fa-envelope"></i>
+    </a>
+    <a href="https://www.linkedin.com/in/anshita-jaiswal-243756238/">
+    <i class="fa-brands fa-linkedin"></i></a>
+    <a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31056.351234781956!2d74.79116754999997!3d13.347545100000007!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bbca35639f9cc91%3A0xc9e04ffb553340fc!2sManipal%2C%20Karnataka!5e0!3m2!1sen!2sin!4v1702652127655!5m2!1sen!2sin">
+    <i class="fa-solid fa-home"></i>
+    </a>
+</div>
+<p>Made with <i class="fa-regular fa-heart"></i> by Myr </p>
+</section>
+
+
+<!----javascript for toggle menu---->
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showmenu(){
+        navLinks.style.right= "0";
+    }
+
+    function hidemenu(){
+        navLinks.style.right= "-200px";
+    }
+</script>
+
+    </body>
+</html>
